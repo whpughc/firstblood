@@ -1,0 +1,43 @@
+83360009
+localhost  .
+   mssqlserver
+
+由于发生一个或多个包故障，产品未能安装列出的工作负荷和组件。
+
+工作负荷不完整
+    ASP.NET 和 Web 开发 (Microsoft.VisualStudio.Workload.NetWeb,version=15.0.26208.0)
+
+组件不完整
+    .NET Core 1.0 - 1.1 开发工具 (Microsoft.NetCore.ComponentGroup.Web,version=15.0.26208.0)
+    .NET Core 1.0.1 开发工具 (Microsoft.Net.Core.Component.SDK,version=15.0.26208.0)
+    容器开发工具 (Microsoft.VisualStudio.Component.DockerTools,version=15.0.26208.0)
+
+你可以使用以下信息搜索解决方案，修改选择的上述工作负荷和组件并重试安装或者从计算机移除产品。
+
+以下是导致上述工作负荷和组件不完整的一系列单个包故障。若要搜索这些特定问题的现有报告，请将 URL 从每个包故障复制粘贴到 Web 浏览器。如果已报告问题，则可以在那里找到解决方案或解决办法。如果还未报告问题，则可以创建一个新的问题，其他人能够从中找到解决方案或解决办法。
+
+未能验证包“Microsoft.Net.Core.SDK,version=15.0.26228.0,chip=x64”。
+    搜索 URL: https://aka.ms/VSSetupErrorReports?q=PackageId=Microsoft.Net.Core.SDK;PackageAction=DownloadPackage;ReturnCode=0x80096004
+    工作负荷受到影响
+        ASP.NET 和 Web 开发 (Microsoft.VisualStudio.Workload.NetWeb,version=15.0.26208.0)
+    组件受到影响
+        .NET Core 1.0 - 1.1 开发工具 (Microsoft.NetCore.ComponentGroup.Web,version=15.0.26208.0)
+        .NET Core 1.0.1 开发工具 (Microsoft.Net.Core.Component.SDK,version=15.0.26208.0)
+        容器开发工具 (Microsoft.VisualStudio.Component.DockerTools,version=15.0.26208.0)
+    详细信息
+        “G:\vs2017\Microsoft.Net.Core.SDK,version=15.0.26228.0,chip=x64\dotnet-dev-win-x64.1.0.0.exe”的 SHA256 验证失败。预期哈希: 3422E2B4827BFDF3168270FF95FF08294DD7BD72D301A9403DAED5F5EA62192A，实际哈希: BB57AA44BF47375366048E5AC1AA2646032BF58C68F6D668FB354267B1D430CA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
